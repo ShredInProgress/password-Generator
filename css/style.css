@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    border: solid 1px rgb(130, 126, 126);
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+
+
+
+label{ 
+  font-size: 20px;
+}
+
+#length{
+  width : 200px
+}
+button{
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  width: fit-content;
+  background-color: rgb(31, 136, 136);
+  color: aliceblue;
+
+}
+
+.result{
+  border-radius: 5px;
+  width: auto;
+  height: 40px;
+  background-color: rgb(31, 136, 136);
+  color: aliceblue;
+
+}
