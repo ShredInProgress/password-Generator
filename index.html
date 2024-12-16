@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Password Generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="app.js" type="module" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>creation de mot de passe aléatoire</h1>
+            <div class="settings">
+                <label for="specialcharacther">longueur du mot de passe</label>
+                <input type="range" name="length" id="length" value="8" min="8" max="16" step="1" list="value">
+                <datalist id="value">
+                    <option value="8" label="8"></option>
+                    <option value="12" label="12"></option>
+                    <option value="16" label="16"></option>
+
+                </datalist>
+            </div>
+            <div class="settings">
+                <label for="special">Caractère spéciaux?</label>
+                <input type="checkbox" name="special" id="special">
+            </div>
+            <div class="settings">
+                <label for="number">Chiffre?</label>
+                <input type="checkbox" name="number" id="number">
+            </div>
+            <div class="settings">
+                <label for="caps">Majuscule</label>
+                <input type="checkbox" name="caps" id="caps">
+            </div>
+                <button id="confirm">Générér mot de passe</button>
+                <div class="yoursettings">vos réglages sont : </div>
+                <ul class="parameters">
+                                
+                    
+                </ul>
+            <div class="result">
+            </div>
+        </div>
+    
+    </body>
+</html>
